@@ -29,7 +29,7 @@ function CreatePage() {
           </h1>
 
           <form onSubmit={handleSubmit} className="space-y-4 mt-4">
-            {/* TITLE INPUT */}
+            
             <label className="input input-bordered flex items-center gap-2 bg-base-200">
               <TypeIcon className="size-4 text-base-content/50" />
               <input
@@ -42,7 +42,7 @@ function CreatePage() {
               />
             </label>
 
-            {/* IMGURL INPUT */}
+            
             <label className="input input-bordered flex items-center gap-2 bg-base-200">
               <ImageIcon className="size-4 text-base-content/50" />
               <input
@@ -55,7 +55,7 @@ function CreatePage() {
               />
             </label>
 
-            {/* IMG PREVIEW */}
+            
             {formData.imageUrl && (
               <div className="rounded-box overflow-hidden">
                 <img

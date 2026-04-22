@@ -13,7 +13,7 @@ if (!PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key");
 }
 
-// Create a client
+
 const queryClient = new QueryClient();
 
 createRoot(document.getElementById("root")).render(

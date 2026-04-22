@@ -6,7 +6,7 @@ let isInterceptorRegistered = false;
 
 function useAuthReq() {
   const { isSignedIn, getToken, isLoaded } = useAuth();
-  // include the token to the request headers
+  
   useEffect(() => {
     if (isInterceptorRegistered) return;
     isInterceptorRegistered = true;
